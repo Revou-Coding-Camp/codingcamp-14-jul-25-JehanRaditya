@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Jehan</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header dengan Marquee -->
+    <header>
+      <div class="marquee-container">
+        <p class="marquee-text">
+          Welcome To My Portfolio | Newbie Software Engineer 🚀 | Coding 💻 |
+          Ngopi ☕ | Belajar 🔥
+        </p>
+      </div>
+      <div class="nav-wrapper">
+        <!--Menu Nama di atas-->
+        <div class="logo-name">
+          <div class="logo"></div>
+          <span class="name">Jehan Raditya</span>
+          </div>
+          <!--Menu Navigasi-->
+          <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="dark-toggle">🌙 Toggle Dark Mode</button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section Home -->
+    <section id="home" class="reveal">
+      <div class="banner">
+        <div class="banner-overlay reveal">
+          <img src="img/profile.png" alt="Jehan profile" class="illustration" />
+          <h1>Hello, I'm Jehan 👋</h1>
+          <p class="intro-text">
+            Selamat datang di portfolioku dimana Perjalanan awal, kode, dan
+            mimpi bertemu. ☕💻✨
+          </p>
+          <p>Mahasiswa yang sedang belajar dan berlatih Web Development</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section About -->
+    <section id="about" class="reveal">
+        <h2>Tentang Saya</h2>
+        <p style="text-align: center;">
+           <br />
+          Saya adalah seorang mahasiswa asal Tangerang yang sedang belajar dunia Web Development dengan rasa penasaran dan semangat yang membara. 
+          Selain hobi ngoding malam-malam ditemani suara kipas laptop, saya juga senang bekerja sama dalam tim dan suka berkomunikasi untuk menyatukan ide-ide yang berbeda.
+          Bagi saya, teknologi bukan cuma soal kode, tapi tentang membangun koneksi dan menciptakan pengalaman.
+          Saya suka merancang UI, belajar HTML, CSS dan JavaScript, serta
+          mengeksplorasi desain kreatif.
+          </b>
+        </p>
+    </section>
+
+
+    <!-- Section Projects -->
+    <section id="projects" class="reveal">
+      <h1>Proyek</h1>
+      <br />
+      <div class="project-container">
+        <div class="project-card">
+          <h3>Photography</h3>
+          <br />
+          <img src="img/pemandangan.jpg" style="width: 100%" />
+          <p class="project-text">
+            "Cahaya yang menerangi jalanan kala kegelapan tiba"
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Melukis</h3>
+          <img src="img/Lukisan.png" style="width: 100%" />
+          <p class="project-text">
+            "Lukisan sebuah pohon yang tertanam sendiri di halaman sekolah semasa SMA"
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Photography</h3>
+          <br />
+      
+          <img src="img/pantai.jpg" style="width: 100%;" />
+          <p class="project-text">
+            ""Pemandangan Indah Pantai selatan di sore hari saat matahari terbenam"
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Poster</h3>
+          <br />
+          <div class="row"></div>
+          <img src="img/Poster.jpg" style="width: 100%" />
+          <p>
+            "Sebelum halal tetaplah untuk menjaga 17:32"
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Togetherness</h3>
+          <br />
+          <img src="img/oneclass.jpg" style="width: 92%; height: auto" />
+          <b></b>
+          <div class="row"></div>
+          <img src="img/kpk.jpg" style="width: 92%; height: 130px" />
+          <p class="project-text">
+            "Kamu akan mengerti arti persahabatan, ketika kamu mulai merindukan
+            saat-saat kebersamaan"
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Togetherness</h3>
+          <br />
+          <img src="img/oneclass.jpg" style="width: 92%; height: auto" />
+          <b></b>
+          <div class="row"></div>
+          <img src="img/kpk.jpg" style="width: 92%; height: 130px" />
+          <p class="project-text">
+            "Kamu akan mengerti arti persahabatan, ketika kamu mulai merindukan
+            saat-saat kebersamaan"
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Togetherness</h3>
+          <br />
+          <img src="img/oneclass.jpg" style="width: 92%; height: auto" />
+          <b></b>
+          <div class="row"></div>
+          <img src="img/kpk.jpg" style="width: 92%; height: 130px" />
+          <p class="project-text">
+            "Kamu akan mengerti arti persahabatan, ketika kamu mulai merindukan saat kebersamaan"
+          </p>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="reveal">
+      <h2>Hubungi Saya</h2>
+      <br>
+    
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Nama Anda" required />
+        <input type="email" id="email" placeholder="Email Anda" required />
+        <textarea id="message" placeholder="Pesan Anda" required></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+      <p id="form-result"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Jehan Raditya</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
